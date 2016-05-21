@@ -1,6 +1,7 @@
 body {
 	font-family: 'open sans',arial, helvetica, sans-serif;
 	font-weight: normal;
+	color: #fff;
 }
 
 a {
@@ -21,7 +22,7 @@ a:focus {
 	background-color: #2e3092;
 	border-radius: 0;
 	border: 0;
-	box-shadow: 0px 0px 6px 2px;
+	box-shadow: 0px 0px 2px 2px black;
 	margin-bottom: 0px;
 }
 
@@ -115,7 +116,7 @@ li {
 }
 
 #allservice-content {
-	margin-top: 60px;
+	margin-top: 150px;
 }
 
 #box {
@@ -192,13 +193,18 @@ li {
 #facilities ul {
 	text-align: left;
 	font-size: 14px;
-	padding-top: 40px;
+	padding-top: 10px;
 }
 
 h4 {
 	color: #3539e3;
 	padding-top: 0px;
 	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#facilities h4 {
+	padding-top: 40px;
 }
 
 #contact {
@@ -367,6 +373,19 @@ hr {
 		margin: 15px 0px 10px 0px; 
 }
 
+	.image-container img {
+		padding-top: 20px;
+}
+
+#footer #header-nav1 {
+	height: 350px;
+	background-color: #030303;
+	border-radius: 0;
+	border: 0;
+	box-shadow: 0px 0px 0px 0px rgba( 0, 0, 0, 0);
+	margin-bottom: 0px;
+}
+
 }
 
  /** for extra small devices**/
@@ -376,7 +395,7 @@ hr {
 		background-color: #2e3092;
 		border-radius: 0;
 		border: 0;
-		box-shadow: 0px 0px 6px 2px;
+		box-shadow: 0px 0px 2px 2px black;
 		margin-bottom: 0px;
 	}
 
@@ -411,7 +430,7 @@ hr {
 #about {
 	background: url('../images/jumbotron2.jpg') no-repeat fixed;
 	margin-bottom: 0px;
-	padding-top: 100px;
+	padding-top: 90px;
 }
 
 #about-img {
@@ -426,7 +445,7 @@ hr {
 #services {
 	background: url('../images/jumbotron7.jpg') no-repeat fixed;
 	margin-bottom: 0px;
-	padding-top: 100px;
+	padding-top: 90px;
 }
 
 #services-img {
@@ -438,8 +457,32 @@ hr {
 	margin-top: 0px;
 }
 
+	#box {
+	height: 270px;
+}
+
+#box1 {
+	height: 550px;
+}
+
+#box2 {
+	height: 550px;
+}
+
+#box3 {
+	height: 550px;
+}
+
+#box4 {
+	height: 550px;
+}
+
+#box5 {
+	height: 550px;
+}
+
 #footer #header-nav1 {
-	height: 680px;
+	height: 720px;
 	background-color: #030303;
 	border-radius: 0;
 	border: 0;
@@ -490,6 +533,15 @@ hr {
 	font-size: 14px;
 	padding-top: 40px;
 	margin-bottom: 30px;
+}
+
+.image-container img {
+	padding-top: 20px;
+}
+
+h3 {
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 }
