@@ -443,7 +443,7 @@ hr {
 }
 
 #services {
-	background: url('../images/jumbotron7.jpg') no-repeat;
+	background: url('../images/jumbotron7.jpg') no-repeat fixed;
 	margin-bottom: 0px;
 	padding-top: 90px;
 }
