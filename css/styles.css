@@ -1,6 +1,6 @@
 body {
 	font-family: 'open sans',arial, helvetica, sans-serif;
-	font-weight: normal;
+	font-weight: 300;
 	color: #fff;
 }
 
@@ -83,9 +83,10 @@ a:focus {
 
 #about-text p {
 	color: #fff;
-	font-size: 14px;
+	font-size: 15px;
 	text-align: left;
-	font-weight: normal;
+	font-weight: 300;
+	font-family: 'open sans', arial, helvetica, sans-serif;
 }
 
 li {
@@ -110,9 +111,10 @@ li {
 
 #services-text p{
 	color: #fff;
-	font-size: 14px;
+	font-size: 15px;
 	text-align: left;
-	font-weight: normal;
+	font-weight: 300;
+	font-family: 'open sans', arial, helvetica, sans-serif;
 }
 
 #allservice-content {
@@ -120,27 +122,27 @@ li {
 }
 
 #box {
-	height: 250px;
+	height: 300px;
 }
 
 #box1 {
-	height: 250px;
+	height: 350px;
 }
 
 #box2 {
-	height: 250px;
+	height: 350px;
 }
 
 #box3 {
-	height: 250px;
+	height: 350px;
 }
 
 #box4 {
-	height: 250px;
+	height: 350px;
 }
 
 #box5 {
-	height: 250px;
+	height: 350px;
 }
 
 #footer #header-nav1 {
@@ -175,6 +177,8 @@ li {
 	font-size: 12px;
 	color: #fff;
 	margin-top: 20px;
+	font-weight: 300;
+	font-family: 'open sans', arial, helvetica, sans-serif;
 }
 
 #social {
@@ -194,6 +198,8 @@ li {
 	text-align: left;
 	font-size: 14px;
 	padding-top: 10px;
+	font-weight: 300;
+	font-family: 'open sans', arial, helvetica, sans-serif;
 }
 
 h4 {
@@ -212,6 +218,8 @@ h4 {
 	font-size: 14px;
 	padding-top: 40px;
 	color: #fff;
+	font-weight: 300;
+	font-family: 'open sans', arial, helvetica, sans-serif;
 }
 
 .btn-default {
@@ -235,6 +243,8 @@ h4 {
 	font-size: 12px;
 	padding-top: 10px;
 	color: #fff;
+	font-weight: 300;
+	font-family: 'open sans', arial, helvetica, sans-serif;
 }
 
 #white {
@@ -315,23 +325,23 @@ hr {
 }
 
 #box1 {
-	height: 300px;
+	height: 350px;
 }
 
 #box2 {
-	height: 300px;
+	height: 350px;
 }
 
 #box3 {
-	height: 300px;
+	height: 350px;
 }
 
 #box4 {
-	height: 300px;
+	height: 350px;
 }
 
 #box5 {
-	height: 300px;
+	height: 350px;
 }
 
 	#services {
@@ -442,6 +452,15 @@ hr {
 	margin-top: 0px;
 }
 
+#about-text p {
+	color: #fff;
+	font-size: 14px;
+	text-align: left;
+	font-weight: 300;
+	font-family: 'open sans', arial, helvetica, sans-serif;
+}
+
+
 #services {
 	background: url('../images/jumbotron7.jpg') no-repeat fixed;
 	margin-bottom: 0px;
@@ -455,6 +474,14 @@ hr {
 	height: 62px;
 	margin-bottom: 0px;
 	margin-top: 0px;
+}
+
+#services-text p{
+	color: #fff;
+	font-size: 14px;
+	text-align: left;
+	font-weight: 300;
+	font-family: 'open sans', arial, helvetica, sans-serif;
 }
 
 	#box {
@@ -526,6 +553,8 @@ hr {
 	font-size: 14px;
 	padding-top: 40px;
 	color: #fff;
+	font-weight: 300;
+	font-family: 'open sans', arial, helvetica, sans-serif;
 }
 
 #facilities ul {
@@ -533,6 +562,8 @@ hr {
 	font-size: 14px;
 	padding-top: 40px;
 	margin-bottom: 30px;
+	font-weight: 300;
+	font-family: 'open sans', arial, helvetica, sans-serif;
 }
 
 .image-container img {
