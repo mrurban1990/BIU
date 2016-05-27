@@ -222,22 +222,6 @@ h4 {
 	font-family: 'open sans', arial, helvetica, sans-serif;
 }
 
-.btn-default {
-	background-color: #2e3092;
-	color: #fff;
-	border-color: none;
-}
-
-.btn-default:hover {
-	color: rgba(255, 255, 255, 0.6);
-	background-color: rgba(46, 48, 146, 0.7);
-	border-color: none;
-}
-
-.btn-default a {
-	color: #fff;
-}
-
 #designer {
 	text-align: center;
 	font-size: 12px;
