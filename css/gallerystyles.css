@@ -37,6 +37,7 @@ a:focus {
 .control-label {
 	font-size: 13px;
 	font-weight: normal;
+	color: #737373;
 }
 
 #nav-list {
