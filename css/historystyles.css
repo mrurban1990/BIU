@@ -1,11 +1,8 @@
 body {
 	font-family: 'open sans',arial, helvetica, sans-serif;
 	font-weight: 300;
-	color: #fff;
-}
-
-strong {
-	color: #2e3092;
+	color: #000;
+	background-color: #f6f6f6;
 }
 
 a {
@@ -37,11 +34,6 @@ a:focus {
 	margin: 15px 0px 10px 40px; 
 }
 
-.control-label {
-	font-size: 13px;
-	font-weight: normal;
-	color: #737373;
-}
 
 #nav-list {
  	margin-top: 38px;
@@ -67,87 +59,24 @@ a:focus {
 	background-color: transparent;
 }
 
-.dropdown-menu {
-	background-color: rgba(0, 0, 0, 0.8);
+#ordered-list li {
+	font-size: 14px;
 }
 
-#about {
-	background: url('../images/jumbotron2.jpg') no-repeat fixed;
-	margin-bottom: 0px;
-	padding-top: 100px;
-}
-
-#about-img {
-	background: url('../images/about.png') no-repeat;
-	text-align: center;
-	width: 129px;
-	height: 95px;
-	margin-bottom: 30px;
-	margin-top: 50px;
-}
-
-#about-text p {
-	color: #fff;
-	font-size: 15px;
-	text-align: left;
-	font-weight: 300;
-	font-family: 'open sans', arial, helvetica, sans-serif;
-}
-
-li {
+#facilities li {
 	font-size: 14px;
 	color: #fff;
 }
 
-#services {
-	background: url('../images/jumbotron3.jpg') no-repeat fixed ;
-	margin-bottom: 0px;
-	padding-top: 100px;
+#history-text {
+	margin-bottom: 50px;
 }
 
-#services-img {
-	background: url('../images/services.png') no-repeat;
-	text-align: center;
-	width: 129px;
-	height: 95px;
-	margin-bottom: 0px;
-	margin-top: 50px;
-}
-
-#services-text p{
-	color: #fff;
-	font-size: 15px;
-	text-align: left;
+#history-text p {
+	color: #303030;
+	font-size: 14px;
 	font-weight: 300;
-	font-family: 'open sans', arial, helvetica, sans-serif;
-}
-
-#allservice-content {
-	margin-top: 150px;
-}
-
-#box {
-	height: 300px;
-}
-
-#box1 {
-	height: 350px;
-}
-
-#box2 {
-	height: 350px;
-}
-
-#box3 {
-	height: 350px;
-}
-
-#box4 {
-	height: 350px;
-}
-
-#box5 {
-	height: 350px;
+	line-height: 2;
 }
 
 #footer #header-nav1 {
@@ -157,8 +86,8 @@ li {
 	border: 0;
 	box-shadow: 0px 0px 0px 0px rgba( 0, 0, 0, 0);
 	margin-bottom: 0px;
+	margin-top: 90px;
 }
-
 
 #twitter {
 	padding-left: 15px;
@@ -254,45 +183,22 @@ h4 {
 	color: rgba(46, 48, 146, 0.7);
 }
 
-h3 {
-	color: #3539e3;
-	margin-top: 40px;
-	font-size: 20px;
-}
-
-#jssor_1 {
-	margin-bottom: 0px;
-	height: 720px;
-	margin-top: 90px;
-}
-
-.jssora22l, .jssora22r {
-            display: block;
-            position: absolute;
-            /* size of arrow element */
-            width: 40px;
-            height: 58px;
-            cursor: pointer;
-            background: url('../img/a22.png') center center no-repeat;
-            overflow: hidden;
-}
-
-.jssora22l { background-position: -10px -31px; }
-.jssora22r { background-position: -70px -31px; }
-.jssora22l:hover { background-position: -130px -31px; }
-.jssora22r:hover { background-position: -190px -31px; }
-.jssora22l.jssora22ldn { background-position: -250px -31px; }
-.jssora22r.jssora22rdn { background-position: -310px -31px; }
-
-
 h2 {
-	color: #fff;
-	font-weight: 500;
-	margin-top: 0px;
-	margin-bottom: 35px;
-	font-size: 1.5vw;
+	text-align: center;
+	font-weight: 600;
 	padding-left: 0px;
-	margin-left: 40px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	text-decoration: underline;
+	color: #303030;
+}
+
+h3 {
+	text-decoration: underline;
+	font-weight: 600;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	color: #303030;
 }
 
 hr {
@@ -309,49 +215,12 @@ hr {
 
 /** for medium devices **/
 @media (min-width: 992px) and (max-width: 1199px) {
-	#box {
-	height: 300px;
-}
 
-#box1 {
-	height: 350px;
-}
-
-#box2 {
-	height: 350px;
-}
-
-#box3 {
-	height: 350px;
-}
-
-#box4 {
-	height: 350px;
-}
-
-#box5 {
-	height: 350px;
-}
-
-	#services {
-	background: url('../images/jumbotron3.jpg') no-repeat fixed ;
-	margin-bottom: 0px;
-	padding-top: 100px;
-}
-
-	#services-img {
-	background: url('../images/services.png') no-repeat;
-	text-align: center;
-	width: 129px;
-	height: 95px;
-	margin-bottom: 30px;
-	margin-top: 0px;
-}
 }
 
 /** for small devices **/
 @media (min-width: 768px) and (max-width: 991px) {
-	#header-nav {
+		#header-nav {
 		height: auto;
 		background-color: #2e3092;
 		border-radius: 0;
@@ -372,10 +241,6 @@ hr {
 		margin: 15px 0px 10px 0px; 
 }
 
-	.image-container img {
-		padding-top: 20px;
-}
-
 #footer #header-nav1 {
 	height: 350px;
 	background-color: #030303;
@@ -389,12 +254,13 @@ hr {
 
  /** for extra small devices**/
 @media (max-width: 767px) {
+
 	#header-nav {
 		height: auto;
 		background-color: #2e3092;
 		border-radius: 0;
 		border: 0;
-		box-shadow: 0px 0px 2px 2px black;
+		box-shadow: 0px 0px 6px 2px;
 		margin-bottom: 0px;
 	}
 
@@ -425,13 +291,12 @@ hr {
 		margin-top: 20px;
 		margin-bottom: 20px;
 		margin-left: 20px;
-	}
+}
 
-	
 	#nav-list {
  		margin-right: 0px;
  		margin-top: 15px;
- }
+}
 
 	#nav-list a {
 		color: white;
@@ -441,78 +306,7 @@ hr {
 		font-weight: 500;
 }
 
-#about {
-	background: url('../images/jumbotron2.jpg') no-repeat fixed;
-	margin-bottom: 0px;
-	padding-top: 90px;
-}
-
-#about-img {
-	background: url('../images/abt.png') no-repeat;
-	text-align: center;
-	width: 85px;
-	height: 62px;
-	margin-bottom: 30px;
-	margin-top: 0px;
-}
-
-#about-text p {
-	color: #fff;
-	font-size: 14px;
-	text-align: left;
-	font-weight: 300;
-	font-family: 'open sans', arial, helvetica, sans-serif;
-}
-
-
-#services {
-	background: url('../images/jumbotron7.jpg') no-repeat fixed;
-	margin-bottom: 0px;
-	padding-top: 90px;
-}
-
-#services-img {
-	background: url('../images/ser.png') no-repeat;
-	text-align: center;
-	width: 85px;
-	height: 62px;
-	margin-bottom: 0px;
-	margin-top: 0px;
-}
-
-#services-text p{
-	color: #fff;
-	font-size: 14px;
-	text-align: left;
-	font-weight: 300;
-	font-family: 'open sans', arial, helvetica, sans-serif;
-}
-
-	#box {
-	height: 350px;
-}
-
-#box1 {
-	height: 550px;
-}
-
-#box2 {
-	height: 550px;
-}
-
-#box3 {
-	height: 550px;
-}
-
-#box4 {
-	height: 550px;
-}
-
-#box5 {
-	height: 550px;
-}
-
-#footer #header-nav1 {
+	#footer #header-nav1 {
 	height: 720px;
 	background-color: #030303;
 	border-radius: 0;
@@ -570,13 +364,24 @@ hr {
 	font-family: 'open sans', arial, helvetica, sans-serif;
 }
 
-.image-container img {
-	padding-top: 20px;
+h2 {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 600;
+	padding-left: 0px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	text-decoration: underline;
+	color: #303030;
 }
 
 h3 {
-	margin-top: 0px;
-	padding-top: 0px;
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: 600;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	color: #303030;
 }
 
 }
